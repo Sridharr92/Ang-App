@@ -1,0 +1,37 @@
+<app-header></app-header>
+
+  <div class="section-layout">
+    <div class="section-wrap">
+      <div fxLayout="row wrap" class="section-row">
+        <div  fxFlex.xs="100%" class="section-left">
+          <div class="section-layout-cell">
+            <div class="banner-img">
+              <img src="assets/images/solar-power.jpeg">
+            </div>
+            <div class="content">
+              <h2 class="section-text">
+                <span class="section-base">Need  </span>Electrical Works Done Right </h2>
+              <h4 class="section-help" (click)="contactRed()" >I'M READY TO HELP YOU</h4>
+              <div class="section-circle"> 
+                <p>Licensed &amp; Insured</p> 
+              </div>
+            </div>
+          </div>
+          <div class="card-list">                     
+              <div class="card-item"> 
+                <i class="fas fa-cog icon"></i>    
+                <h4>We Do Wide-Range Electrical Services:</h4>
+                <ul>
+                  <li *ngFor="let item of list">
+                      {{item.listData}}
+                  </li>
+                </ul>
+              </div>
+          </div>          
+        </div>
+      </div>
+    </div>
+  </div>
+<app-footer></app-footer>
+
+

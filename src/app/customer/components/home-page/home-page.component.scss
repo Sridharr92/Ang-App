@@ -1,73 +1,7 @@
 
-.header{
-	position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    background-color: #000000;    
-    color: #e68404;
-    font-weight: 600;
-    .nav{
-    	display: flex;
-    	width: 100%;
-    	padding: 16px;
-    }
-    .logo{
-    	flex: 1;
-    }
-    .menubar{
-    	cursor: pointer;
-    }
-}
 .section{
 	&-layout{
-		margin: 62px 0 40px auto;
-		// background-image: url('https://www.rsi.edu/wp-content/uploads/2017/08/electrician-tool-909x674.jpg');
-		// background-size: cover;
-		// background-repeat: no-repeat;
-		// object-fit: cover;
-		// background-position: 50% 50%;
-		// &-cell{
-		// 	position: relative;
-		// 	padding: 70px 0;
-		// 	color: #fff;
-		// 	text-align: center;
-		// 	background-position: center center;
-		// 	background-size: cover;
-		// 	&:before{
-		// 		position: absolute;
-		// 		top: 0;
-		// 		left: 0;
-		// 		width: 100%;
-		// 		height: 100%;
-		// 		background-color: rgba(8,25,43,0.45);
-		// 		z-index: 1;
-		// 		content: '';
-		// 	}
-		// 	& .content{
-		// 		position: relative;
-		// 		padding: 50px 20px;
-		// 		color: #fff;
-		// 		text-align: center;
-		// 		z-index: 2;
-		// 	}
-		// 	& .banner-img{
-		// 		overflow: hidden;
-		// 		position: absolute;
-		// 		top: 0;
-		// 		left: 0;
-		// 		width: 100%;
-		// 		height: 100%;
-		// 		& img{
-		// 			object-fit: cover;
-		// 			width: 100%;
-		// 			height: 100%;
-		// 		}
-		// 	}
-		// }
+		margin: 62px 0 40px auto;		
 	}
 	&-wrap{
 		position: relative;
@@ -85,6 +19,7 @@
 	}
 	&-help{
 		font-size: 1rem;
+		cursor: pointer;
 	}
 	&-circle{
 		color: #ffffff;
@@ -133,22 +68,6 @@
 		}
 		ul li{
 			font-size: 0.875rem;
-		}
-	}
-}
-
-.footer{
-	color: #ffffff;
-	background-color: #292d33;
-	text-align: center;
-	padding: 1em;
-	.callus{
-		color: #e68404;
-		font-size: 1rem;
-		font-weight: bold;
-		a{
-			color: #e68404;
-			text-decoration: none;
 		}
 	}
 }

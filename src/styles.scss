@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+	// font-family: 'Playfair Display', serif;
+	font-family: 'Roboto', sans-serif;
+}
+.typography{
+	margin: 0;
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Playfair Display'), local('PlayfairDisplay-Regular'), url(./fonts/playfair-display/2NBgzUtEeyB-Xtpr9bm1Cczai8e7xzqnKiVb1EwOy0E.ttf) format('truetype');
+}
+@font-face{
+	font-family: 'Roboto';		
+	src: local('Roboto'), local('Roboto'), url(./fonts/Roboto/Roboto-Regular.ttf) format('truetype');
+}

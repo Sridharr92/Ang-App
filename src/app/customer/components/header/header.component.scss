@@ -1,0 +1,23 @@
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #000000;    
+    color: #e68404;
+    font-weight: 600;
+    .nav{
+        display: flex;
+        width: 100%;
+        padding: 16px;
+    }
+    .logo{
+        flex: 1;
+    }
+    .menubar{
+        cursor: pointer;
+    }
+}
